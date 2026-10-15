@@ -24,3 +24,7 @@ Resource: NIST SP 800-52 Rev. 2-Guidelines for TLS - https://csrc.nist.gov/ publ
 A common belief in the cybersecurity field is that using a strong password with an OTP code via text message provides complete protection against hacking. The correct version, according to NIST standards, is that OTP via SMS is adversary-in-the-() vulnerable to "middle" attacks where the code can be intercepted. The correction appears in NIST SP document 635-800 under the section that confirms that authentication, "phishing resistance," requires domain-bound encryption keys (such as FIDO2/WebAuthn) and cannot be reused on fake sites.
 ## Open Question
 How can phishing-resistant authentication standards (such as FIDO2) be implemented in work environments that rely on legacy devices that do not support NFC or fingerprint technologies, while ensuring ease of use for citizens?
+
+## overview 
+The six fields are interconnected in the softwa resupply chain. Each one plays a role in securing the entire lifecycle, from development to deployment.especially in the Cybersecurity track, which focuses on preventing and detecting attacks across thesoftware supply chain.
+## Softwaer
