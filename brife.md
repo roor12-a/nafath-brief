@@ -20,4 +20,7 @@ Resource: NIST SP 800-52 Rev. 2-Guidelines for TLS - https://csrc.nist.gov/ publ
  principle of data minimization must be applied, so that only what is necessary for verification is collected. Data must be encrypted during transit and at rest. Compliance with the Saudi Personal Data Protection Law (PDPL) is required, and the user's right to access or delete their data must be guaranteed
  ## Cybersecurity
  Phishing-resistant authentication is that which relies on domain-bound cryptographic keys such as FIDO2 WebAuthn and cannot be reused on a fake site. Resistant methods: FIDO2 and security keys. Non-resistive methods: One-time passwords (OTPs) via text message, authentication applications (TOTPs), and security questions, because they are vulnerable to Agent-In-Trade (AiTM) attacks
-
+## Misconcepation in my Track
+A common belief in the cybersecurity field is that using a strong password with an OTP code via text message provides complete protection against hacking. The correct version, according to NIST standards, is that OTP via SMS is adversary-in-the-() vulnerable to "middle" attacks where the code can be intercepted. The correction appears in NIST SP document 635-800 under the section that confirms that authentication, "phishing resistance," requires domain-bound encryption keys (such as FIDO2/WebAuthn) and cannot be reused on fake sites.
+## Open Question
+How can phishing-resistant authentication standards (such as FIDO2) be implemented in work environments that rely on legacy devices that do not support NFC or fingerprint technologies, while ensuring ease of use for citizens?
