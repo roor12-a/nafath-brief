@@ -2,10 +2,11 @@ Version:  NAFATH-V1
 Track: Softwaer 
 
 ## overview 
-software engineering are deeply interconnected within the software supply chain.Requirements lay the foundation, defining what needs to be built.Development translates these requirements into code. Continuous Integration and Delivery (CI/CD) automates the building and merging of code. Testing ensures the code meets quality standards and functions correctly. Deployment releases the verified software to end-users.Finally, Maintenance and Monitoring ensure the software remains secure and operational post-release. A vulnerability in any single field can compromise the entire lifecycle, making an integrated security approach essential for protecting software, AI models, and internet routes.
+The six fields in this scenario are interconnected to ensure the security and integrity of the digital identity platform (Nafath). It starts with authentication protocols that ensure secure verification of user identity. Then comes mobile application security to protect data on the device itself. Next, network security (such as TLS) secures data transmission between the application and the server. To protect sensitive data, we use data encryption and privacy policies. Finally, we use artificial intelligence to detect fraud. These fields are interconnected; a weakness in any link leads to a breach of the entire system, necessitating the application of strict standards such as NIST and IETF.
 
 ## Softwaer
-The system shall be implemented using a microservices architecture, with the exception of isolation components. Application Programming Interfaces (APIs) must be exposed via an API Gateway, incorporating rate limiting.
+The system should be designed using a microservices architecture to increase resilience and isolation. Application programming interfaces (APIs) should be secured using API Gateways with Rate Limiting. The principle of Least Privilege should be applied between different services to prevent the spread of a breach.
+
 ## Mobile 
 Sensitive data should be stored in secure, system-managed areas (such as Keychain on iOS or Keystore on Android). Screen capturing (including screen recording) must be prevented while sensitive data is being displayed. Code obfuscation should be implemented to hinder reverse engineering, and application integrity checks—such as detecting if a device is rooted or jailbroken—must be performed to prevent the app from running on such devices.
 ##  AI
