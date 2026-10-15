@@ -18,4 +18,6 @@ All communications must be enforced using TLS 1.3 with strong encryption (AES-25
 Resource: NIST SP 800-52 Rev. 2-Guidelines for TLS - https://csrc.nist.gov/ publications/detail/sp/800-52/rev-2/final
 ## Date
  principle of data minimization must be applied, so that only what is necessary for verification is collected. Data must be encrypted during transit and at rest. Compliance with the Saudi Personal Data Protection Law (PDPL) is required, and the user's right to access or delete their data must be guaranteed
+ ## Cybersecurity
+ Phishing-resistant authentication is that which relies on domain-bound cryptographic keys such as FIDO2 WebAuthn and cannot be reused on a fake site. Resistant methods: FIDO2 and security keys. Non-resistive methods: One-time passwords (OTPs) via text message, authentication applications (TOTPs), and security questions, because they are vulnerable to Agent-In-Trade (AiTM) attacks
 
