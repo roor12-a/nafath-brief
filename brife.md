@@ -12,3 +12,9 @@ Sensitive data should be stored in secure, system-managed areas (such as Keychai
 Artificial intelligence is used to analyze behavioral biometrics and monitor user activity for suspicious attempts. Models must be trained on data and governed in their decision-making capabilities. Furthermore, these systems must be explainable—minimizing the risk of erroneously rejecting legitimate users—with human oversight provided for cases that require it
 Resource: OWASP Mobile Application Security Testing Guide - https://owasp.org/ www-project-mobile-app-security/
 
+## Network 
+All communications must be enforced using TLS 1.3 with strong encryption (AES-256-GCM).Mutual TLS (mTLS) for server and client identity verification must be implemented. Legacy protocols (e.g., SSLv3 1.0/1.1, TLS) must be blocked. Firewalls (WAFs) must be used to protect APIs from DDoS and injection attacks.
+Resource: NIST SP 800-52 Rev. 2-Guidelines for TLS - https://csrc.nist.gov/ publications/detail/sp/800-52/rev-2/final
+## Date
+ principle of data minimization must be applied, so that only what is necessary for verification is collected. Data must be encrypted during transit and at rest. Compliance with the Saudi Personal Data Protection Law (PDPL) is required, and the user's right to access or delete their data must be guaranteed
+
